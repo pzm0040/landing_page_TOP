@@ -1,0 +1,28 @@
+/* Global */
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+/* Header - Nav Bar */
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1F2937;
+
+}
+#nav-title {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px; 
+}
+header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
