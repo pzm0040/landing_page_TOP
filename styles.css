@@ -1,7 +1,8 @@
 /* Global */
 * {
     font-family: 'Roboto';
-    margin: 0px;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
 /* Header - Nav Bar */
@@ -25,4 +26,40 @@ header a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/* Body */
+.flex-body {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.body-item {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 30px;
+    
+}
+
+.body-item h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.main-picture {
+    max-height: auto;
+    max-width: 300px;
+}
+
+.button {
+    background-color: dodgerblue;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #E5E7EB;
+    border: solid #E5E7EB;
 }
