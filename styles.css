@@ -1,8 +1,8 @@
 /* Global */
 * {
     font-family: 'Roboto';
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
 }
 
 /* Header - Nav Bar */
@@ -16,6 +16,7 @@ header {
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 30px;
 }
 header li {
     list-style: none;
@@ -54,12 +55,82 @@ header a {
 .main-picture {
     max-height: auto;
     max-width: 300px;
+    padding: 30px;
 }
 
 .button {
-    background-color: dodgerblue;
+    background-color: #3882F6;
     font-size: 14px;
     border-radius: 4px;
     color: #E5E7EB;
     border: solid #E5E7EB;
+    padding: 4px;
+}
+
+.info-header {
+    text-align: center;
+    font: 36px;
+    font-weight: bold;
+
+}
+.flex-body-mid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.body-mid-item {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    border:  4px solid #3882F6;
+    border-radius: 4px;
+    padding: 20px;
+}
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 40px;
+
+}
+.quote {
+    font-style: italic; 
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    
+}
+figcaption {
+    text-align: right;
+}
+
+.actionbox {
+    padding: 20px;
+}
+.actionbox-banner {
+    background-color: #3882F6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.action-text {
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+.button-box {
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 20px;
 }
